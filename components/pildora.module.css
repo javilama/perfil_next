@@ -1,0 +1,20 @@
+.pildora{
+    -moz-border-radius: 999rem;
+  -ms-border-radius: 999rem;
+  -o-border-radius: 999rem;
+  -webkit-border-radius: 999rem;
+  background-color: var(--secondary-color);
+  border-radius: 999rem;
+  border: 1px solid var(--secondary-color);
+  color: white;
+  display: flex;
+  font-size: 1em;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.35;
+  max-width: 200px;
+  min-width: 150px;
+  padding: 10px 15px;
+  text-align: center;
+  white-space: nowrap;
+}

@@ -1,0 +1,43 @@
+
+
+.header {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__content {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+  }
+  .header__content h1 {
+    font-size: 1.5em;
+  }
+  .profile__image {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+
+  @media (min-width: 50em){
+
+    .header {
+        position: fixed;
+        width: 100%;
+      }
+      .profile__image {
+        width: 50px;
+        height: 50px;
+      }
+      .header--content h1 {
+        font-size: 2em;
+      }
+  }
